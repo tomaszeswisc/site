@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Informações para o Navegador-->
+    <!--Usuário não tem acesso a essas informações-->
+    <title>Meu Primeiro Site SENAI</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Primeiro Site SENAI</title>
+    <!--<link> cria um vinculo com um arquivo através do atributo href, e o atributo rel é o tripo de relação do arquivo-->
+    <link href="estilo.css" rel="stylesheet">
 </head>
 <body>
 
+    <!--<header> cria o Cabeçalho-->
     <header>
 
-        <nav>
+        <!--<nav> cria o Menu de Navegação-->
+        <nav>            
             <a href="alunos.html"><img src="Alunos.png"></a>
+            <!-- <a> "ancora, desta forma tras uma imagem e um link juntos - Deixa a imagem clicável"-->
                 <ul>
+                <!--<ul> Cria uma lista-->
+                    <!--<li> Cria elementes em uma lista-->
                     <li><a href="index.html">Home</a></li>
                     <li><a href="contato.html">Contato</a></li>
                     <li><a href="noticias.html">Noticias</a></li>
@@ -20,15 +29,22 @@
 
     </header>
 
+    <!--Corpo do Site-->
+    <!-- <h1> - Titulo, <p> - parágrafo--> 
     <h1>Meu Primeiro Site de Notícias SENAI</h1>
     <p>O SENAI é referência nacional no apoio à tecnologia e inovação em empresas industriais de todos os portes e segmentos.
         Há 8 décadas, oferta cursos de iniciação profissional, graduação e pós-graduação tecnológica para colaboradores de 28 áreas da indústria brasileira.</p>
     
+    <!--Criação de Artigos Individuais-->
+    <!--Fica mais fácil apliar CSS-->
+
     <!--Materia 1-->
-    <article>
+        <article>
         <h1>Vagas de verão SENAI: cursos com desconto para concluir ainda nas férias</h1>
-        <img src="materia1.jpg"> 
+        <img src="materia1.jpg">
+        <!--img -insere imagem com utilização do atributo src--> 
         <a href="https://noticias.portaldaindustria.com.br/noticias/educacao/vagas-de-verao-senai-cursos-com-desconto-para-concluir-ainda-nas-ferias/">Saiba Mais!</a> 
+        <!-- a "ancora" insere um link atraves do atributo href-->
     </article>
     
     <!--Materia 2-->
@@ -51,6 +67,11 @@
         <img src="materia4.jpg">
         <a href="https://noticias.portaldaindustria.com.br/noticias/robotica/robos-em-cena-frc-lanca-desafio-da-temporada-20232024/">Saiba Mais!</a>
     </article>
+
+    <!--<footer>Cria o Rodapé-->
+    <footer>
+        <p>Voçê chegou ao fim do nosso conteúdo!</p>
+    </footer>
 
 </body>
 </html>
