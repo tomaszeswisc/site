@@ -4,3 +4,24 @@ body {
     font-size: 18px;
     color: #333333;
 }
+
+header {
+    background-color: #333333;
+}
+
+header a {
+    color: #bbbbbb;
+    text-decoration: none;
+}
+
+article a {
+    background-color: #333333;
+    color:#bbbbbb;
+    text-decoration: none;
+    }
+
+footer {
+    background-color: #333333;
+    color: #bbbbbb;
+}
+
