@@ -1,27 +1,43 @@
+* {
+    margin: 0;
+}
+
 body {
     background-color: #bbbbbb;
     font-family: Calibri;
     font-size: 18px;
     color: #333333;
-}
+   }
 
-header {
+.topo {
     background-color: #333333;
+    padding: 30px;
 }
 
-header a {
+article {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.topo a {
     color: #bbbbbb;
     text-decoration: none;
-}
+    }
 
 article a {
     background-color: #333333;
     color:#bbbbbb;
     text-decoration: none;
+    padding: 10px;
     }
 
-footer {
+.rodape {
     background-color: #333333;
     color: #bbbbbb;
+    padding: 30px;
 }
 
+main {
+    padding: 30px;
+}
