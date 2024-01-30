@@ -28,6 +28,7 @@ body {
     background-color: #333333;
     color: #bbbbbb;
     padding: 30px;
+    text-align: center;
 }
 
 /* Atribui modificações a class .materia, que é nosso article, nossas matérias ou notícias */
@@ -35,6 +36,20 @@ body {
     background-color: #ffffff;
     padding: 30px;
     margin-bottom: 30px;
+    width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.materia img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.materia h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
 }
 
 .menu {
@@ -45,6 +60,19 @@ body {
 
 .menu a:hover {
     color: #333333;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+.texto {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #555555;
 }
 
 .menu li{
@@ -58,6 +86,7 @@ body {
     color:#bbbbbb;
     text-decoration: none;
     padding: 10px;
+    display: inline-block;
 }
 
 .navegacao {
