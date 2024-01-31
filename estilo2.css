@@ -1,0 +1,120 @@
+/* Reset de margens para todos os elementos */
+* {
+    margin: 0;
+}
+
+/* Estilos gerais do corpo do site */
+body {
+    background-color: #bbbbbb; /* Cor de fundo do corpo */
+    font-family: Calibri; /* Tipo de fonte principal */
+    font-size: 18px; /* Tamanho da fonte padrão */
+    color: #333333; /* Cor do texto padrão */
+}
+
+/* Estilos do cabeçalho (topo) */
+.topo {
+    background-color: #333333; /* Cor de fundo do cabeçalho */
+    padding: 30px; /* Espaçamento interno no cabeçalho */
+}
+
+/* Estilos dos links do cabeçalho */
+.topo a {
+    color: #bbbbbb; /* Cor dos links no cabeçalho */
+    text-decoration: none; /* Remover decoração de link (sublinhado) */
+}
+
+/* Estilos do rodapé */
+.rodape {
+    background-color: #333333; /* Cor de fundo do rodapé */
+    color: #bbbbbb; /* Cor do texto no rodapé */
+    padding: 30px; /* Espaçamento interno no rodapé */
+    text-align: center; /* Alinhamento de texto centralizado */
+}
+
+/* Estilos dos artigos (materias) */
+.materia {
+    background-color: #ffffff; /* Cor de fundo dos artigos */
+    padding: 30px; /* Espaçamento interno nos artigos */
+    margin-bottom: 30px; /* Margem inferior entre os artigos */
+    text-align: center; /* Alinhamento de texto centralizado nos artigos */
+    box-sizing: border-box; /* Inclui a borda e o preenchimento no tamanho total do elemento */
+}
+
+/* Estilos das imagens dentro dos artigos */
+.materia img {
+    width: 100%; /* Largura da imagem ajustada a 100% do contêiner pai */
+    margin-bottom: 20px; /* Margem inferior abaixo das imagens nos artigos */
+}
+
+/* Estilos dos títulos dos artigos */
+.materia h1 {
+    margin-bottom: 10px; /* Margem inferior abaixo dos títulos dos artigos */
+    font-size: 30px; /* Tamanho da fonte dos títulos dos artigos */
+}
+
+/* Estilos do menu de navegação */
+.menu {
+    display: flex; /* Exibição flexível para criar uma linha de itens */
+    list-style: none; /* Remover marcadores de lista */
+    margin-left: auto; /* Alinha os itens do menu à direita */
+}
+
+/* Estilos do efeito hover nos links do menu */
+.menu a:hover {
+    color: #333333; /* Cor dos links do menu ao passar o mouse */
+}
+
+/* Estilos do título principal */
+.titulo {
+    text-align: center; /* Alinhamento de texto centralizado no título principal */
+    margin-bottom: 10px; /* Margem inferior abaixo do título principal */
+    font-size: 50px; /* Tamanho da fonte do título principal */
+}
+
+/* Estilos do parágrafo principal */
+.texto {
+    text-align: center; /* Alinhamento de texto centralizado no parágrafo principal */
+    margin-bottom: 30px; /* Margem inferior abaixo do parágrafo principal */
+    font-size: 28px; /* Tamanho da fonte do parágrafo principal */
+    color: #555555; /* Cor do texto do parágrafo principal */
+}
+
+/* Estilos dos itens do menu */
+.menu li {
+    margin-left: 20px; /* Margem à esquerda entre os itens do menu */
+}
+
+/* Estilos do botão de leitura mais detalhada */
+.botao {
+    background-color: #333333; /* Cor de fundo do botão */
+    color: #bbbbbb; /* Cor do texto no botão */
+    text-decoration: none; /* Remover decoração de link (sublinhado) */
+    padding: 10px; /* Preenchimento interno do botão */
+    display: inline-block; /* Exibição em bloco com margens horizontal automáticas */
+    border-radius: 10px; /* Borda arredondada do botão */
+}
+
+/* Estilos do botão de leitura mais detalhada ao passar o mouse */
+.botao:hover {
+    background-color: #555555; /* Cor de fundo do botão ao passar o mouse */
+}
+
+/* Estilos da barra de navegação */
+.navegacao {
+    display: flex; /* Exibição flexível para criar uma linha de itens */
+    justify-content: space-between; /* Distribui os itens igualmente na linha */
+    align-items: center; /* Centraliza verticalmente os itens na linha */
+}
+
+/* Estilos do conteúdo principal do site */
+main {
+    padding: 20px; /* Espaçamento interno principal */
+    box-sizing: border-box; /* Inclui a borda e o preenchimento no tamanho total do elemento */
+}
+
+/* Estilos da grade para os artigos */
+.grade {
+    display: grid; /* Exibição de layout de grade */
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); /* Layout responsivo de colunas na grade */
+    gap: 20px; /* Espaçamento entre as colunas e linhas da grade */
+}
