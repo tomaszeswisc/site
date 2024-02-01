@@ -1,14 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Informações para o Navegador-->
+    <!--Usuário não tem acesso a essas informações-->
+    <title>Meu Primeiro Site SENAI</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+    <!--<link> cria um vinculo com um arquivo através do atributo href, e o atributo rel é o tripo de relação do arquivo-->
     <link href="estilo.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Site em Construção</h1>
-    <img src="construcao.png">
-    <a href="index.html">Voltar</a>
+
+    <!--<header> cria o Cabeçalho-->
+    <header class="topo">
+
+        <!--<nav> cria o Menu de Navegação-->
+        <nav class="navegacao" >            
+            <a href="alunos.html"><img src="Alunos.png" alt="logo" height="42" width="42"></a>
+            <!-- <a> "ancora, desta forma tras uma imagem e um link juntos - Deixa a imagem clicável"-->
+                <ul class="menu" >
+                <!--<ul> Cria uma lista-->
+                    <!--<li> Cria elementes em uma lista-->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="noticias.html">Noticias</a></li>
+                </ul>
+        </nav>
+
+    </header>
+
+    <!--Corpo do Site-->
+    <main>
+        <!-- <h1> - Titulo, <p> - parágrafo--> 
+        <h1 class="titulo" >Contato</h1>
+        <p class="texto" >O SENAI é referência nacional no apoio à tecnologia e inovação em empresas industriais de todos os portes e segmentos.
+            Há 8 décadas, oferta cursos de iniciação profissional, graduação e pós-graduação tecnológica para colaboradores de 28 áreas da indústria brasileira.</p>
+        
+    </main>
+
+    <!--<footer>Cria o Rodapé-->
+    <footer class="rodape">
+        <p>Voçê chegou ao fim do nosso conteúdo!</p>
+    </footer>
+
 </body>
 </html>

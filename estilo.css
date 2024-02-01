@@ -87,6 +87,11 @@ body {
     text-decoration: none;
     padding: 10px;
     display: inline-block;
+    border-radius: 20px;
+}
+
+.botao:hover {
+    background-color: #666666;
 }
 
 .navegacao {
@@ -96,4 +101,10 @@ body {
 /* Atribui modificações a estrutura do conteudo do Site */
 main {
     padding: none;
+}
+
+.grade {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    gap: 20px;
 }
