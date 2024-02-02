@@ -33,9 +33,39 @@
     <main>
         <!-- <h1> - Titulo, <p> - parágrafo--> 
         <h1 class="titulo" >Contato</h1>
-        <p class="texto" >O SENAI é referência nacional no apoio à tecnologia e inovação em empresas industriais de todos os portes e segmentos.
-            Há 8 décadas, oferta cursos de iniciação profissional, graduação e pós-graduação tecnológica para colaboradores de 28 áreas da indústria brasileira.</p>
+        <p class="texto" >O SENAI é referência nacional.</p>
         
+        <!--Corpo do formulario-->
+        <form class="contato">
+            <!--Campos do formulario-->
+            <!--Campo Nome-->
+            <label class="rotulo">
+                Nome
+                <input type="text" class="campo">
+            </label>
+             <!--Campo Email-->
+             <label class="rotulo">
+                E-mail
+                <input type="email" class="campo">
+            </label>
+             <!--Campo Assunto-->
+             <label class="rotulo">
+                Assunto
+                <select class="campo">
+                    <option>Dúvidas</option>
+                    <option>Sugestões</option>
+                    <option>Críticas</option>
+                </select>
+            </label>
+            <!--Campo Mensagem-->
+            <label class="rotulo">
+                Mensagem
+                <textarea class="campo"></textarea>
+            </label>
+            <!--Botão Enviar-->
+            <button class="botao">Enviar</button>
+        </form>
+
     </main>
 
     <!--<footer>Cria o Rodapé-->
