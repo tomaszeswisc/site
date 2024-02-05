@@ -145,3 +145,7 @@ textarea.campo {
     background-color: #eeeeee;
     outline: none;
 }
+
+.mapa {
+    width: 100%;
+}
