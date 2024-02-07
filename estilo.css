@@ -16,6 +16,7 @@ body {
 .topo {
     background-color: #333333;
     padding: 30px;
+    font-size: 14px; /*--adicionado para resolução 320*/
 }
 
 /* Atribui modificações a class .topo a, que são os "ancoras", os links do cabeçalho */
@@ -37,7 +38,7 @@ body {
     background-color: #ffffff;
     padding: 30px;
     margin-bottom: 30px;
-    width: 600px;
+    width: 320px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -108,14 +109,14 @@ main {
 
 .grade {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 20px;
 }
 
 .contato {
     background-color: #ffffff;
     padding: 30px;
-    width: 600px;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;   
