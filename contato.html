@@ -5,7 +5,7 @@
     <!--Usuário não tem acesso a essas informações-->
     <title>Meu Primeiro Site SENAI</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0">
     <!--<link> cria um vinculo com um arquivo através do atributo href, e o atributo rel é o tripo de relação do arquivo-->
     <link href="estilo.css" rel="stylesheet">
 </head>
@@ -33,19 +33,19 @@
     <main>
         <!-- <h1> - Titulo, <p> - parágrafo--> 
         <h1 class="titulo" >Contato</h1>
-        <p class="texto" >O SENAI é referência nacional, oferta cursos de iniciação profissional.</p>
+        <p class="texto" >Os campos com * são de preenchimento obrigatório!</p>
         
         <!--Corpo do formulario-->
         <form class="contato">
             <!--Campo Nome-->
             <label class="rotulo">
-                Nome
-                <input type="text" class="campo">
+                Nome*
+                <input type="text" class="campo" required>
             </label>
             <!--Campo Email-->
             <label class="rotulo">
-                E-mail
-                <input type="email" class="campo">
+                E-mail*
+                <input type="email" class="campo" required>
             </label>
             <!--Campo Assunto-->
             <label class="rotulo">
@@ -58,8 +58,8 @@
             </label class="rotulo">
             <!--Campo Mensagem-->
             <label class="rotulo">
-                Mensagem
-                <textarea class="campo"></textarea>
+                Mensagem*
+                <textarea class="campo" required></textarea>
             </label>
             <!--Botão Enviar-->
             <button>Enviar</button>
